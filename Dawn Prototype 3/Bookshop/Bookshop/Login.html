@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--CSS  -->
+    <link href="CSS1.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+    <meta charset="utf-8" />
+    <!--Tab Title-->
+    <title> Login </title>
+
+</head>
+<body>
+    <!--Subtitle -->
+    <h2> LOGIN </h2>
+
+    <!-- QAL logo image  -->
+    <div id="Logo">
+        <img src="QAL.JPG" alt="QALLogo" />
+    </div>
+
+    <!-- Title: Library Services image  -->
+    <img src="LibraryServices.JPG" alt="welcome" style="position: absolute; top:40px; left:350px; width:1400px; height:200px;" />
+
+    <!-- Navigation buttons -->
+    <div class="vertical-menu">
+        <a href="MainMenu.html" class="active"> HOME </a> <br />
+        <a href="Login.html">LOGIN</a> <br />
+        <a href="SearchBook.html">SEARCH</a> <br />
+    </div>
+
+    <!-- Enter button -->
+    <div class="Enter">
+        <a href="LoginManager.html">ENTER</a> <br />
+    </div>
+
+
+    <form method="post" action="SignupProcessor.aspx">
+        <table id="LoginTable">
+            <tr>
+                <td> Username:   </td>
+                <td> <input type="text" name="txtUsername" style="width:700px; height:20px;" /> </td>
+            </tr>
+            <tr>
+                <td> Password:   </td>
+                <td> <input type="password" name="txtPassword" style="width:700px; height:20px;" /> </td>
+            </tr>
+        </table>
+        <div id="ForgotUsernameTag">
+            <a href="ForgotUsernamePassword.html"> Forgot Username/Password</a>
+        </div>
+    </form>
+
+  
+
+
+
+
+
+
+
+
+
+
+    <!-- footer -->
+    <div id="footer">
+        <!--Text within footer -->
+        <a style="position:fixed; left:880px;"> Terms and Conditions </a>
+        <a style="position:fixed; left:1000px;"> | ©  QAL University  </a>
+        <a style="position:fixed; left:1105px;">| Contact Us   </a>
+    </div>
+
+</body>
+</html>

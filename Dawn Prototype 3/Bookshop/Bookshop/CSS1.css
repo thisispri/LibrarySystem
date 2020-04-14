@@ -1,0 +1,616 @@
+﻿
+/*HEADER */
+h1 {
+    text-align: center;
+    font-size: 50px;
+    background-color: #245CA0;
+    letter-spacing:3px;
+    position: absolute;
+    top: 210px;
+    left: 290px;
+    width: 1500px;
+    height: 60px;
+    border: 1px darkblue solid;
+    font-family: 'Patua One', cursive;
+    color: white;
+}
+
+h2 {
+    text-align:center;
+    font-size: 50px;
+    background-color: #245CA0;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 210px;
+    left: 290px;
+    width: 1500px;
+    height: 60px;
+    border: 1px darkblue solid;
+    font-family: 'Patua One', cursive;
+    color: white;
+}
+
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+    background-color: #14307d;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 420px;
+    left: 690px;
+    width: 795px;
+    height: 50px;
+    border: 1px darkblue solid;
+    font-family: 'Patua One', cursive;
+    color: white;
+}
+
+
+
+
+/*LOGO*/
+#Logo {
+    position: absolute; 
+    top: 13px;
+    left: 40px;
+    width: 210px;
+    height: 210px;
+}
+
+
+
+/*MAIN BODY */
+    body 
+    {
+        /*#B1CFEE (Light Blue) Background Colour*/
+        background: #B1CFEE;
+    }
+
+
+/*NAVIGATION*/
+
+    /*Position of the navigation */
+       .vertical-menu 
+        {
+            position:absolute;
+            top: 360px;
+            width: 200px;
+            left:50px;
+        }
+
+     /*Appearance of the navigation */
+        .vertical-menu a 
+        {
+            background-color: #245CA0;
+            color: white;
+            display: block;
+            padding: 20px;
+            font-family: 'Patua One', cursive;
+            font-size: 25px;
+            text-align:center;
+            border: 1.5px solid black;
+            border-radius: 20px;
+            text-decoration:none;
+        }   
+
+        /*Hover effect of the navigation */
+            .vertical-menu a:hover 
+            {
+                background: #62CBF3;
+
+            }
+
+
+.Enter a {
+    background-color: #245CA0;
+    color: white;
+    display: block;
+    padding: 20px;
+    font-family: 'Patua One', cursive;
+    font-size: 25px;
+    text-align: center;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    position: absolute;
+    top:650px;
+    width: 200px;
+    left: 900px;
+
+}
+.Enter a:hover {
+    background: #62CBF3;
+}
+
+.PersonalDetails a {
+    background-color: #245CA0;
+    color: white;
+    display: block;
+    padding: 20px;
+    font-family: 'Patua One', cursive;
+    font-size: 25px;
+    text-align: center;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 700px;
+    width: 120px;
+    left: 330px;
+}
+
+    .PersonalDetails a:hover {
+        background: #62CBF3;
+    }
+
+
+
+
+
+.RenewAll a {
+    background-color: #245CA0;
+    color: white;
+    display: block;
+    padding: 20px;
+    font-family: 'Patua One', cursive;
+    font-size: 18px;
+    text-align: center;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 730px;
+    width: 90px;
+    left: 1355px;
+}
+
+    .RenewAll a:hover {
+        background: #62CBF3;
+    }
+
+
+.SuspendBorrowerDetails a {
+    background-color: #245CA0;
+    color: white;
+    display: block;
+    padding: 20px;
+    font-family: 'Patua One', cursive;
+    font-size: 18px;
+    text-align: center;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 630px;
+    width: 158px;
+    left:50px;
+}
+
+    .SuspendBorrowerDetails a:hover {
+        background: #62CBF3;
+    }
+
+
+.Suspend a {
+    background-color:darkred;
+    color: white;
+    display: block;
+    padding: 20px;
+    font-family: 'Patua One', cursive;
+    font-size: 18px;
+    text-align: center;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 520px;
+    width: 158px;
+    left: 1550px;
+    
+}
+
+    .Suspend a:hover {
+        background-color:indianred; 
+    }
+
+.Edit a {
+    background-color: #245CA0;
+    color: white;
+    display: block;
+    padding: 20px;
+    font-family: 'Patua One', cursive;
+    font-size: 18px;
+    text-align: center;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 590px;
+    width: 158px;
+    left: 1550px;
+}
+
+    .Edit a:hover {
+        background: #62CBF3;
+    }
+
+.clear a {
+    background-color: #245CA0;
+    color: white;
+    display: block;
+    padding: 20px;
+    font-family: 'Patua One', cursive;
+    font-size: 18px;
+    text-align: center;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 660px;
+    width: 158px;
+    left: 1550px;
+}
+
+    .clear a:hover {
+        background: #62CBF3;
+    }
+
+.OK a {
+    background-color: #245CA0;
+    color: white;
+    display: block;
+    padding: 20px;
+    font-family: 'Patua One', cursive;
+    font-size: 18px;
+    text-align: center;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 730px;
+    width: 158px;
+    left: 1550px;
+}
+
+    .OK a:hover {
+        background: #62CBF3;
+    }
+
+
+.Next a {
+    background-color: #245CA0;
+    color: white;
+    display: block;
+    padding: 20px;
+    font-family: 'Patua One', cursive;
+    font-size: 25px;
+    text-align: center;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 650px;
+    width: 200px;
+    left: 910px;
+}
+
+    .Next a:hover {
+        background: #62CBF3;
+    }
+
+.AdvancedSearch a {
+    background-color: #245CA0;
+    color: white;
+    display: block;
+    padding: 20px;
+    font-family: 'Patua One', cursive;
+    font-size: 25px;
+    text-align: center;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 700px;
+    width: 200px;
+    left: 610px;
+ 
+}
+
+    .AdvancedSearch a:hover {
+        background: #62CBF3;
+    }
+
+.Clear2 a {
+    background-color: #245CA0;
+    color: white;
+    display: block;
+    padding: 20px;
+    font-family: 'Patua One', cursive;
+    font-size: 25px;
+    text-align: center;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 700px;
+    width: 200px;
+    left: 1110px;
+}
+
+    .Clear2 a:hover {
+        background: #62CBF3;
+    }
+
+.Search a {
+    background-color: #245CA0;
+    color: white;
+    display: block;
+    padding: 20px;
+    font-family: 'Patua One', cursive;
+    font-size: 25px;
+    text-align: center;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 350px;
+    width: 200px;
+    left: 1410px;
+}
+
+    .Search a:hover {
+        background: #62CBF3;
+    }
+
+
+.Back a {
+    background-color:#245CA0;
+    color: white;
+    display: block;
+    padding: 20px;
+    font-family: 'Patua One', cursive;
+    font-size: 25px;
+    text-align: center;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 635px;
+    width: 150px;
+    left: 50px;
+}
+
+    .Back a:hover {
+        background: #62CBF3;
+    }
+
+
+.Search2 a {
+    background-color: #245CA0;
+    color: white;
+    display: block;
+    padding: 20px;
+    font-family: 'Patua One', cursive;
+    font-size: 25px;
+    text-align: center;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 350px;
+    width: 200px;
+    left: 1410px;
+}
+
+    .Search2 a:hover {
+        background: #62CBF3;
+    }
+
+
+
+.Reserve a {
+    background-color: #245CA0;
+    color: white;
+    display: block;
+    padding: 20px;
+    font-family: 'Patua One', cursive;
+    font-size: 25px;
+    text-align: center;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 350px;
+    width: 200px;
+    left: 1410px;
+}
+
+    .Reserve a hover {
+        background: #62CBF3;
+    }
+
+.Avaliable a {
+    background-color: #245CA0;
+    color: white;
+    display: block;
+    padding: 20px;
+    font-family: 'Patua One', cursive;
+    font-size: 25px;
+    text-align: center;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 430px;
+    width: 200px;
+    left: 1410px;
+}
+
+    .Avaliable a hover {
+        background: #62CBF3;
+    }
+
+.Save a {
+    background-color: #245CA0;
+    color: white;
+    display: block;
+    padding: 20px;
+    font-family: 'Patua One', cursive;
+    font-size: 25px;
+    text-align: center;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 510px;
+    width: 200px;
+    left: 1410px;
+}
+
+    .Save a hover {
+        background: #62CBF3;
+    }
+
+
+
+.Student a {
+    background-color: #245CA0;
+    color: white;
+    display: block;
+    padding: 20px;
+    font-family: 'Patua One', cursive;
+    font-size: 25px;
+    text-align: center;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 350px;
+    width: 200px;
+    left: 1410px;
+}
+
+    .Student a hover {
+        background: #62CBF3;
+    }
+
+.Staff a {
+    background-color: #245CA0;
+    color: white;
+    display: block;
+    padding: 20px;
+    font-family: 'Patua One', cursive;
+    font-size: 25px;
+    text-align: center;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 430px;
+    width: 200px;
+    left: 1410px;
+}
+
+    .Staff a hover {
+        background: #62CBF3;
+    }
+
+
+.OK2 a {
+    background-color: #245CA0;
+    color: white;
+    display: block;
+    padding: 20px;
+    font-family: 'Patua One', cursive;
+    font-size: 25px;
+    text-align: center;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 510px;
+    width: 200px;
+    left: 1410px;
+}
+
+    .OK2 a hover {
+        background: #62CBF3;
+    }
+
+table {
+    font-family: 'Patua One', cursive;
+    position: fixed;
+    width: 800px;
+    height: 500px;
+    top: 350px;
+    left: 530px;
+    background: #CAE1FF;
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+#LoginTable {
+    font-family: 'Patua One', cursive;
+    position: fixed;
+    width: 1000px;
+    height:200px;
+    top: 400px;
+    left: 530px;
+    background: #CAE1FF;
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+#ForgotUsernameTag {
+    font-family: 'Patua One', cursive;
+    font-size:20px;
+    color: blue;
+    position: fixed;
+    top: 600px;
+    left: 900px;
+
+}
+
+#email {
+    font-family: 'Patua One', cursive;
+    font-size: 20px;
+    color: black;
+    position: fixed;
+    top: 320px;
+    left: 900px;
+}
+
+
+#Bookloan {
+    background-color: #245CA0;
+    border: 1px solid white;
+    padding: 0px;
+    color: white;
+    position: fixed;
+    top: 520px;
+    left: 689px;
+    width: 800px;
+    height: 200px;
+    border-bottom: 1px solid white;
+    font-size: 20px;
+    text-align:center;
+}
+
+
+
+
+#footer 
+{
+    position:fixed;
+    top: 5520px;
+    width:500px;
+    height: 20px;
+    background: #245CA0;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    color: white;
+    font-size:12px;
+}
+
+
